@@ -1,7 +1,9 @@
 @charset "UTF-8";
-/* Portfolio stylesheet */
-
-
+/* CSS portfolio styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+body{
+font-family: 'Raleway', sans-serif;
+}
 
 
 * {
@@ -13,8 +15,7 @@
 
 
 h1 {
-	font-family: sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 }
 #name {
 	float: right;
@@ -29,7 +30,7 @@ h1 {
 	text-align: center;
 }
 #mainpaige {
-	background-image: url("images/collage.portfolio.2 copy.jpg");
+	background-image: url("../images/collage.portfolio.2 copy.jpg");
 	background-color: #cccccc;
 	background-repeat: no-repeat, repeat;
 	background-size: cover;
@@ -38,7 +39,7 @@ h1 {
 }
 /*Contact site layout*/
 #contact-page {
-	background-image: url("images/Black rock unsplash.jpeg");
+	background-image: url("../images/Black rock unsplash.jpeg");
 }
 header {
 	padding: 20px;
