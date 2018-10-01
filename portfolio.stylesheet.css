@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* Portfolio stylesheet */
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/*Mainpage layout*/
+
+
+h1 {
+	font-family: sans-serif;
+	font-weight: 300;
+}
+#name {
+	float: right;
+}
+#main-description {
+	background: black;
+	border: 1px solid black;
+	color: white;
+	float: right;
+	clear: right;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+}
+#mainpaige {
+	background-image: url("images/collage.portfolio.2 copy.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+/*Contact site layout*/
+#contact-page {
+	background-image: url("images/Black rock unsplash.jpeg");
+}
+header {
+	padding: 20px;
+	color: white;
+}
+p {
+	margin-top: 10px;
+	width: 240px;
+	text-align: left
+}
+input {
+	border-radius: 5px;
+	padding: 5px;
+}
+textarea {
+	resize: none;
+	border-radius: 5px;
+	padding: 20px;
+}
+label {
+	color: white;
+}
+#button {
+	background-color: #616161;
+	color: white;
+	width: 80px;
+	margin-top: 20px;
+}
+
+/*Form styles*/
+
+form {
+	width: 240px;
+	margin-left: 20px;
+}
+/*Sidebar menu layout*/
