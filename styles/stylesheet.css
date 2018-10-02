@@ -1,54 +1,125 @@
 @charset "UTF-8";
 /* CSS portfolio styles */
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
-body{
-font-family: 'Raleway', sans-serif;
+body {
+	font-family: 'Raleway', sans-serif;
 }
-
-
 * {
 	margin: 0;
 	padding: 0;
 	border: none;
 }
+h1 {
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+h2{
+	margin-top:50px;
+	
+}
 /*Mainpage layout*/
 
+/*Navigation*/
 
-h1 {
-	font-weight: 200;
+ul {
+    list-style-type: none;
+    margin-top: 50px; 
+	margin-left:25px;
+	margin-right:25px;
+   text-align: center;
+    background-color: white;
+		border-radius:5px;
+	
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+	
+}
+
+
+
+
+/*Flex box layout*/
+
+#container {
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+#container-left {
+	width: 15%;
+	height:100vh;
+	margin: 0;
+	background: black;
+	float: left;
+}
+
+#container-right{
+	float:right;
+}
+/*main page*/
+#container-center-main {
+	background-image: url("../images/collage.portfolio.2 copy.jpg");
+	background-color: #cccccc;
+	background-size: cover;
+	min-height: 100vh;
+	width: 85%;
+	float: right;
+
+}
+#container-right-main {
+	float: right;
 }
 #name {
 	float: right;
+	color: black;
 }
 #main-description {
 	background: black;
 	border: 1px solid black;
+	border-radius: 5px;
 	color: white;
-	float: right;
+	
 	clear: right;
 	padding: 0px 10px 0px 10px;
 	text-align: center;
 }
-#mainpaige {
-	background-image: url("../images/collage.portfolio.2 copy.jpg");
-	background-color: #cccccc;
-	background-repeat: no-repeat, repeat;
-	background-size: cover;
-	background-position: center;
-	height: 600px;
+/*contact page*/
+
+#container-center-contact {
+	width: 60%;
+	margin-left: 10px;
+	float:left;
+
 }
-/*Contact site layout*/
-#contact-page {
-	background-image: url("../images/Black rock unsplash.jpeg");
-}
-header {
-	padding: 20px;
+#container-right-contact {
+	float: right;
 	color: white;
+}
+#contact-page {
+	background-image: url("../images/black-rock-unsplash.jpeg");
+}
+#contact {
+	margin-bottom: 25px;
+	color: #ddd;
+	
 }
 p {
 	margin-top: 10px;
-	width: 240px;
-	text-align: left
+	width: 60%;
+	text-align: left;
+	margin-bottom: 10px;
 }
 input {
 	border-radius: 5px;
@@ -69,10 +140,63 @@ label {
 	margin-top: 20px;
 }
 
-/*Form styles*/
-
-form {
-	width: 240px;
-	margin-left: 20px;
+#contact-form{
+	display: flex;
+	float:left;
+	
+	
 }
-/*Sidebar menu layout*/
+/*about me page*/
+#container-center-about {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 10px;
+}
+#container-right-about {
+	float: right;
+	margin-top: 125px;
+	width:30%;
+}
+/*Projects page*/
+
+	
+	
+#container-center-projects1{
+	display: flex;
+	width: 50%;
+	flex-direction:row;
+	text-decoration: none;
+	margin-left: 10px;
+	
+}
+
+h4, .project-description{
+	color: white;
+	background-color: black;
+	
+}
+.photo-box-1 {
+	background-color: black;	
+
+}
+
+
+
+/*Projects Bridges*/
+
+#container-center-projects-bridges {
+	display: flex;
+	width: 50%;
+	flex-flow: row wrap;
+	margin-left: 10px;
+}
+#container-right-projects-bridges {
+	float: right;
+	width:30%
+}
+
+.fig-box{
+	display: block;
+	margin:10px;
+}
