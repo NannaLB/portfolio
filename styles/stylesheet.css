@@ -4,79 +4,56 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
-* {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
 h1 {
 	color: black;
 	margin-top: 50px;
 	margin-bottom: 50px;
-
+	margin-left: 40px;
 }
-h2{
-	margin-top:50px;
-	
+h2 {
+	margin-top: 50px;
+}
+
+h3{
+	border: 1px solid black;
 }
 /*Mainpage layout*/
 
 /*Navigation*/
 
 ul {
-    list-style-type: none;
-    margin-top: 50px; 
-	margin-left:25px;
-	margin-right:25px;
-   text-align: center;
-    background-color: white;
-		border-radius:5px;
-	
+	list-style-type: none;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	border-radius: 5px;
 }
 li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 10px;
+	text-decoration: none;
 }
-
 li a:hover {
-    background-color: #555;
-    color: white;
-	
+	background-color: #555;
 }
+/*Layout*/
 
 
-
-
-/*Flex box layout*/
-
-#container {
-	align-content: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-}
 #container-left {
-	width: 15%;
-	height:100vh;
-	margin: 0;
+	width: 20vw;
+	height: 100vh;
+	margin-left: 0;
 	background: black;
 	float: left;
-}
-
-#container-right{
-	float:right;
 }
 /*main page*/
 #container-center-main {
 	background-image: url("../images/collage.portfolio.2 copy.jpg");
 	background-color: #cccccc;
 	background-size: cover;
-	min-height: 100vh;
-	width: 85%;
-	float: right;
-
+	height: 100vh;
 }
 #container-right-main {
 	float: right;
@@ -90,7 +67,6 @@ li a:hover {
 	border: 1px solid black;
 	border-radius: 5px;
 	color: white;
-	
 	clear: right;
 	padding: 0px 10px 0px 10px;
 	text-align: center;
@@ -98,105 +74,146 @@ li a:hover {
 /*contact page*/
 
 #container-center-contact {
-	width: 60%;
-	margin-left: 10px;
 	float:left;
-
 }
+
 #container-right-contact {
 	float: right;
+	height:100vh;
 	color: white;
+	width: 20vw;
+	margin-top:430px;
+	
+	
 }
 #contact-page {
 	background-image: url("../images/black-rock-unsplash.jpeg");
 }
 #contact {
-	margin-bottom: 25px;
+	margin-left:0;
 	color: #ddd;
-	
 }
 p {
-	margin-top: 10px;
-	width: 60%;
+
 	text-align: left;
-	margin-bottom: 10px;
+	margin: 5px;
+	
 }
 input {
 	border-radius: 5px;
-	padding: 5px;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 20px;
+	width: 15vw;
 }
 textarea {
 	resize: none;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 15px 5px 5px 5px;
+	margin-bottom: 20px;
+	width: 15vw;
+	
 }
+
+#message-area{
+padding: 70px 10px 70px 10px;
+	width: 20vw
+}
+
 label {
 	color: white;
+	
 }
 #button {
-	background-color: #616161;
+	background-color: #696969;
 	color: white;
-	width: 80px;
+	width: 100px;
 	margin-top: 20px;
+	padding: 10px;
 }
 
-#contact-form{
-	display: flex;
-	float:left;
-	
-	
-}
 /*about me page*/
+
+
 #container-center-about {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
-	margin-left: 10px;
+	margin-left: 300px;
+	width: 60vw;
 }
-#container-right-about {
+#about-me-pic {
+	float: left;
+}
+#about-me-text {
+	width: 20vw;
 	float: right;
-	margin-top: 125px;
-	width:30%;
 }
 /*Projects page*/
-
 	
-	
-#container-center-projects1{
-	display: flex;
-	width: 50%;
-	flex-direction:row;
-	text-decoration: none;
-	margin-left: 10px;
-	
+#container-center-projects1 {
+	height: 100vh;
+	width: 80vw;
+	margin-left: 300px;
 }
-
-h4, .project-description{
+h4, .project-description {
 	color: white;
+}
+#photo-box {
+	width: 15vw;
+	height: 40vh;
+	text-decoration: none;
+	margin-left: 40px;
+}
+#box1 {
 	background-color: black;
-	
 }
-.photo-box-1 {
-	background-color: black;	
-
+#box2 {
+	background-color: black;
 }
-
-
-
+#box3 {
+	background-color: black;
+}
 /*Projects Bridges*/
 
 #container-center-projects-bridges {
-	display: flex;
-	width: 50%;
-	flex-flow: row wrap;
+	display: inline-block;
+	width: 50vw;
 	margin-left: 10px;
+	float: left;
 }
 #container-right-projects-bridges {
 	float: right;
-	width:30%
+	width: 20vw;
+	margin-top: 125px;
+	margin-right: 40px;
+}
+.fig-box {
+	display: inline block;
+	float: left;
+}
+/*Projects XD*/
+
+#container-center-projects-xd {
+	display: block;
+	margin-left: 10px;
+	width: 50vw;
+	float: left;
+}
+#container-right-projects-xd {
+	margin-top: 125px;
+	margin-right: 40px;
+	width: 20vw;
+	float: right;
 }
 
-.fig-box{
+/*Projects portfolio*/
+
+#container-center-projects-portfolio {
 	display: block;
-	margin:10px;
+	margin-left: 10px;
+	width: 50vw;
+	float: left;
+}
+#container-right-projects-portfolio {
+	margin-top: 125px;
+	margin-right: 40px;
+	width: 20vw;
+	float: right;
 }
