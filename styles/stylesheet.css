@@ -32,9 +32,10 @@ h3 {
 	background: black;
 	float: left;
 	position: fixed;
-	background-size: cover;
+	background-size:cover;
 }
 .dropbtn {
+	
 	padding: 50px;
 	border: none;
 	border-radius: 50px;
@@ -75,6 +76,7 @@ h3 {
 	display: block;
 }
 .dropdown:hover .dropbtn {
+	
 }
 /*main page*/
 #container-center-main {
@@ -166,6 +168,7 @@ label {
 	margin-left: 15vw;
 	width: 50vw;
 	float: left;
+	
 }
 #about-me-text {
 	width: 30vw;
@@ -173,12 +176,15 @@ label {
 	margin-top: 145px;
 	margin-right: 3vw;
 	border: 2px solid #323E35;
-	color: black;
+	color:black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
 }
 .fig-box {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 /*#about-center{
 	background-image: url(../images/marble-black.jpeg);
 	background:cover;
