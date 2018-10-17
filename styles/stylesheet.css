@@ -3,17 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 body {
 	font-family: 'Raleway', sans-serif;
+	margin:0;
+	height: 0;
 }
-
 h1 {
 	color: black;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	margin-left: 40px;
+	display: block;
 }
 h2 {
 	margin-top: 50px;
-	font-weight: 900;
 	padding: 10px;
 	text-decoration-line: underline;
 	text-decoration-color: #323E35;
@@ -28,15 +29,12 @@ h3 {
 /*Navigation*/
 #container-left {
 	width: 15vw;
-	height: 100vh;
+	min-height: 120vh;
 	margin-left: 0;
 	background: black;
 	float: left;
-	position: fixed;
-	background-size:cover;
 }
 .dropbtn {
-	
 	padding: 50px;
 	border: none;
 	border-radius: 50px;
@@ -77,14 +75,14 @@ h3 {
 	display: block;
 }
 .dropdown:hover .dropbtn {
-	
 }
 /*main page*/
 #container-center-main {
 	background-image: url("../images/collage.portfolio.2 copy.jpg");
 	background-color: #cccccc;
 	background-size: cover;
-	height: 100vh;
+	height: 120vh;
+	width: 85vw;
 	margin-left: 15vw;
 }
 #container-right-main {
@@ -92,12 +90,17 @@ h3 {
 }
 #name {
 	float: right;
-	color: black;
+	background-color: rgba(50,62,53,0.7);
 	font-size: 30px;
-	margin-left: 3vw;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	clear: right;
+	padding: 0px 10px 0px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #main-description {
-	background: black;
+	background: rgba(0,0,0,0.8);
 	border: 1px solid black;
 	border-radius: 5px;
 	color: white;
@@ -110,12 +113,12 @@ h3 {
 
 #container-center-contact {
 	float: left;
-	margin-left: 18vw;
-	wifth: 50vw;
+	margin-left: 2.6vw;
+	width: 50vw;
 }
 #container-right-contact {
 	float: right;
-	height: 100vh;
+	
 	color: white;
 	width: 25vw;
 	margin-top: 430px;
@@ -124,7 +127,8 @@ h3 {
 	margin-bottom: 20px;
 }
 #contact-page {
-	background-image: url("../images/black-rock-unsplash.jpeg");
+	background-image: url("../images/black-rock-unsplash.s.jpg");
+	background-position: center;
 }
 #contact {
 	margin-left: 0;
@@ -166,10 +170,8 @@ label {
 
 #container-center-about {
 	display: block;
-	margin-left: 15vw;
-	width: 50vw;
+	width: 40vw;
 	float: left;
-	
 }
 #about-me-text {
 	width: 30vw;
@@ -177,15 +179,12 @@ label {
 	margin-top: 145px;
 	margin-right: 3vw;
 	border: 2px solid #323E35;
-	color:black;
+	color: black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
 }
 .fig-box {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 /*#about-center{
 	background-image: url(../images/marble-black.jpeg);
 	background:cover;
@@ -194,11 +193,28 @@ label {
 }
 */
 /*Projects page*/
+
+#buttonback {
+	background: black;
+	color: white;
+	width: 3.5vw;
+	height: 3vh;
+	float: right;
+	position: absolute;
+	top: 9vh;
+	right: 4vw;
+	border-radius: 5px;
+}
+/*#aboutproject{
+	width:25vw;
+	float:right;
+	
+}*/
 	
 #container-center-projects1 {
 	display: flex;
 	height: 100vh;
-	width: 85vw;
+	width: 50vw;
 	margin-left: 15vw;
 }
 h4 {
@@ -243,7 +259,6 @@ a {
 #container-center-projects-bridges {
 	display: inline-block;
 	width: 50vw;
-	margin-left: 15vw;
 }
 #container-right-projects-bridges {
 	float: right;
@@ -259,7 +274,6 @@ a {
 
 #container-center-projects-xd {
 	display: block;
-	margin-left: 15vw;
 	width: 50vw;
 	float: left;
 }
@@ -273,7 +287,6 @@ a {
 
 #container-center-projects-portfolio {
 	display: inline-block;
-	margin-left: 15vw;
 	width: 50vw;
 	float: left;
 }
