@@ -78,7 +78,7 @@ h3 {
 }
 /*main page*/
 #container-center-main {
-	background-image: url("../images/collage.portfolio.2 copy.jpg");
+	background-image: url("../images/collage.portfolio.3 copy.jpg");
 	background-color: #cccccc;
 	background-size: cover;
 	height: 120vh;
@@ -118,13 +118,13 @@ h3 {
 }
 #container-right-contact {
 	float: right;
-	
 	color: white;
 	width: 25vw;
 	margin-top: 430px;
 }
 #container-right-contact p {
 	margin-bottom: 20px;
+	
 }
 #contact-page {
 	background-image: url("../images/black-rock-unsplash.s.jpg");
@@ -232,7 +232,8 @@ a {
 	text-decoration: none;
 	margin-left: -8vw;
 	margin-bottom: 2vh;
-	margin-top: 140px
+	margin-top: 140px;
+	border: 1px solid black;
 }
 #box2 {
 	background-color: black;
@@ -242,7 +243,8 @@ a {
 	text-decoration: none;
 	margin-left: 3vw;
 	margin-bottom: 2vh;
-	margin-top: 140px
+	margin-top: 140px;
+	border: 1px solid black;
 }
 #box3 {
 	background-color: black;
@@ -252,7 +254,19 @@ a {
 	text-decoration: none;
 	margin-left: 3vw;
 	margin-bottom: 2vh;
-	margin-top: 140px
+	margin-top: 140px;
+	border: 1px solid black;
+}
+#box4 {
+	background-color: black;
+	display: inline block;
+	width: 15vw;
+	height: 40vh;
+	text-decoration: none;
+	margin-left: 3vw;
+	margin-bottom: 2vh;
+	margin-top: 140px;
+	border: 1px solid black;
 }
 /*Projects Bridges*/
 
