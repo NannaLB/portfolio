@@ -78,7 +78,7 @@ h3 {
 }
 /*main page*/
 #container-center-main {
-	background-image: url("../images/collage.portfolio.3 copy.jpg");
+	background-image: url("../images/collage.portfolio.copy.jpg");
 	background-color: #cccccc;
 	background-size: cover;
 	height: 120vh;
@@ -258,7 +258,7 @@ a {
 }
 #box4 {
 	background-color: black;
-	display: block;
+	display: inline block;
 	width: 15vw;
 	height: 40vh;
 	text-decoration: none;
